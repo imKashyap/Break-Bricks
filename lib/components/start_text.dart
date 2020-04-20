@@ -20,10 +20,10 @@ class StartText {
 
   void update(double t) {
     painter.text = TextSpan(
-      text: 'Start',
+      text: 'Start\n\n\n©Rahul Kashyap',
       style: TextStyle(
         color: Colors.black,
-        fontSize: 50.0,
+        fontSize: 30.0,
       ),
     );
     painter.layout();
